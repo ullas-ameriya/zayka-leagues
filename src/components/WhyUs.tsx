@@ -3,7 +3,7 @@ export default function WhyUs() {
     "Deep reach among women 30+ decision makers",
     "Raw, unscripted content builds trust",
     "High recall through repeat exposure",
-    "500K strong moms community for amplification",
+    "Trusted by tens of brands across categories",
   ];
 
   return (

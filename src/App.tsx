@@ -22,15 +22,15 @@ export default function App() {
       <Stats />
       <LeagueFormat />
       <SponsorIntegration />
-      <ContentProof />
       <PlatformsDetailed />
+      <Gallery />
       <WhyUs />
       <Demographics />
       <Sponsors />
-      <Gallery />
       <Platforms />
-      <Founders />
+      <ContentProof />
       <Pricing />
+      <Founders />
       <CTA />
       <a
         href="https://wa.me/917622014780"

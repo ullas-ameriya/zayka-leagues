@@ -8,13 +8,20 @@ export default function CTA() {
       <a
         href="https://wa.me/917622014780"
         target="_blank"
-        className="inline-block mt-8 bg-primary text-white px-8 py-4 rounded-full"
+        className="inline-block mt-8 bg-primary text-blue-600 underline px-8 py-4 rounded-full"
       >
-        Chat on WhatsApp
+        WhatsApp
       </a>
-
+      
+      <a
+        href="tel:+917622014780"
+        target="_blank"
+        className="inline-block mt-8 bg-primary text-blue-600 underline px-8 py-4 rounded-full"
+      >
+        Call
+      </a>
       <p className="mt-4 text-gray-500">
-        Contact: Apeksha · +91 76220 14780
+        Apeksha · +91 76220 14780
       </p>
     </section>
   );

@@ -42,7 +42,7 @@ export default function PlatformsDetailed() {
             <p className="text-primary font-semibold text-xl">
               {p.followers}
             </p>
-            <p className="text-gray-600 mt-1">{p.name}</p>
+            <p className="text-blue-600 underline mt-1">{p.name}</p>
           </a>
         ))}
       </div>
