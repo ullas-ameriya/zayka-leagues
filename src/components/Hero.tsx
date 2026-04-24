@@ -5,7 +5,6 @@ const images = [
   "/images/hero/hero1.jpg",
   "/images/hero/hero2.jpg",
   "/images/hero/hero3.jpg",
-  "/images/hero/hero4.jpg",
 ];
 
 export default function Hero() {
@@ -38,14 +37,14 @@ export default function Hero() {
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 text-shadow-lg">
 
         <p className="tracking-widest text-5xl mb-8 opacity-80 px-4 py-2 rounded">
           India’s Most Authentic Home Kitchen League
         </p>
 
-        <p className="text-xl md:text-2xl font-light mb-8 leading-tight bg-black/10 px-4 py-2 rounded">
-          20M+ impressions per season · Real moms · Real kitchens · Real influence
+        <p className="text-xl md:text-2xl font-light mb-8 leading-tight px-4 py-2 rounded">
+          <span className="font-bold">20M+</span> impressions per season · Real moms · Real kitchens · Real influence
         </p>
         
         <a 
